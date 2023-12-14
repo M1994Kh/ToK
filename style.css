@@ -1,0 +1,165 @@
+
+body    {
+
+}
+h1  {
+    text-align: center;
+}
+h2  {
+    text-align: center;
+}
+
+.header-items1   {
+    text-align: center;
+    width: 20vw;
+    height: 10vw;
+    color: #8e8787;
+}
+.header-items2   {
+    text-align: center;
+    width: 20vw;
+    height: 15vw;
+}
+.header-items3   {
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+}
+
+.logo1  {
+    width: 150px;
+    height: 150px;
+}
+
+.logo2  {
+    width: 100px;
+    height: 100px;
+}
+
+.logo3  {
+    width: 75px;
+    height: 75px;
+}
+
+#logo   {
+    text-align: left;
+}
+.fields {
+    background-image: url("tree of knowledge bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 93vw;
+    height: 93vw;
+    padding-left: 2%;
+}
+
+.header-text    {
+    font-size: 20px;
+}
+.laptop-header  {
+    background-color: #304D30;
+}
+.tablet-header  {
+    background-color: #304D30;
+}
+.mobile-header  {
+    background-color: #304D30;
+}
+
+.mobile-lang       {
+    width: 80vw;
+    text-align: right;
+}
+
+.tablet-lang       {
+    width: 80vw;
+    text-align: right;
+}
+/* For Mobile */ 
+@media screen and (max-width: 480px) {
+
+    h1  {
+        font-size: 15px;
+    }
+
+    .mobile-header  {
+        display: block;
+    }
+    .tablet-header  {
+        display: none;
+    }
+    .laptop-header {
+        display: none;
+    }
+    .lang-logo  {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    h1  {
+        font-size: 60px;
+    }
+
+    .mobile-header  {
+        display: none;
+    }
+    .tablet-header  {
+        display: block;
+    }
+    .laptop-header {
+        display: none;
+    }
+    .lang-logo  {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* For Laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    h1  {
+        font-size: 90px;
+    }
+    .mobile-header  {
+        display: none;
+    }
+    .tablet-header  {
+        display: none;
+    }
+    .laptop-header {
+        display: block;
+    }
+    .lang-logo  {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* For Large Screens */
+@media screen and (min-width: 1025px)  {
+
+    h1  {
+        font-size: 120px;
+    }
+
+    .mobile-header  {
+        display: none;
+    }
+    .tablet-header  {
+        display: none;
+    }
+    .laptop-header {
+        display: block;
+    }
+    .lang-logo  {
+        width: 50px;
+        height: 50px;
+    }
+
+}
